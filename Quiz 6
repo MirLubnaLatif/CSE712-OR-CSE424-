@@ -1,0 +1,165 @@
+713/424 Q6 Pattern Recognition
+Name: Mir Lubna Latif
+ Id: 21166044
+
+1.What is image analysis?
+ Ans : The extraction of relevant information from photographs is known as image analysis or imagery analysis. Digital image processing techniques are used to create it mostly from digital photos. Image analysis tasks can range from as simple as scanning barcoded tags to as complex as recognizing a person based on their face.
+
+2. What is  segmentation? 
+Ans: Segmentation is a marketing tactic that divides your audience into smaller groups based on shared qualities. “This specific crowd of people has something in common, so I'm going to group them all together,” you declare when you create a segment of your audience. Homogeneity, which focuses at a segment's similar demands, and differentiation are two types of segmentation.
+
+3. What is  typology? 
+Ans: It is a classification system used in archaeology, psychology, and the social sciences to classify objects according to their general kind. The act of finding, counting, and classifying facts using the eyes, other senses, and logic is known as typology. Typology (archaeology) refers to the classification of artefacts based on their properties. Typology (statistics) is a statistical term used in research design and the social sciences.
+
+4. What is Document segmentation aims at?
+Ans: The goal of document segmentation is to divide a document image into useful sections. The process of segmenting handwritten text using a digital image. Initially, the repository was intended to serve as a jumping off point for another project. As a result, the plan is to begin the segmentation process and then create something based on the results.
+
+5. What are the parts of these  Document segmentation?
+Ans: The goal of document segmentation is to divide a document image into meaningful sections. Glyphs, words, text lines, paragraphs, and regions are examples of these components (usually with one type of content such as text or graphic). These sections are typically used for content extraction such as text recognition, determining the reading order, and classifying the document.
+
+6. How does the document content extraction process work?
+Ans: From the text we capture the Derwap that then we do segmentation and classification then wedo OCR , vectorization, indexing.
+
+7. Where Segmentation algorithms can be applied to document images?
+Ans: Segmentation algorithms can be applied to a collection of document photographs (for example, to divide a book into chapters), natural images, medical images, and even 3D models When it labels the portions that are segmented, a segmentation algorithm can be thought of as a specific type of grouping, partitioning, or classification technique.
+
+8. In this paper what type of image will be focused on?
+Ans: Only offline document image segmentation techniques are discussed in this paper. The history of the document's creation, such as writing strokes or typing/creation sequence, is not taken into account by these algorithms. In most document analysis systems, this type of information is not available.
+
+9. Which segmentation algorithm is used?
+Ans: They used survey line segmentation algorithms. This excludes algorithms that simply draw a boundary between lines on opposite sides of the page. Some algorithms are capable of determining the type of content that each area contains.
+
+10. What are two kinds of identification?
+Ans: The physical layout and the logical layout are the two types of identification. The physical layout is concerned with the nature of the material, which includes text, typewritten text, graphics, diagrams, pictures, and decorations, among other things. The logical arrangement is related to the content's function, such as the header, footnote, main body, and so on. In this study, we look at algorithms that give regions with or without labels, as well as those that provide physical layout labeling.
+
+11. What is Music score?
+Ans: Because we might view music writing as a language and hence as textual material, music scores are classified as one of the most textual documents. However, because the structure of music scores is so restricted, it is not a significant challenge, and no magazine has been created to analyze it. The majority of papers deal with music symbol segmentation, staff elimination, and direct recognition of music scores without the need for any layout analysis.
+
+12. What are three main types of color depth?
+Ans: Color depth or colour depth (see spelling differences), also known as bit depth, is either the number of bits used to indicate the color of a single pixel, in a bitmapped image or video framebuffer, or the number of bits used for each color component of a single pixel. Color wise, there are three main types of color depth: black and white (BW), gray level (GL) and color (C).
+ 
+13. What are Document image segmentation algorithms that are typically classified into three groups?
+Ans: Document image segmentation algorithms are typically classified into three groups : top-down, bottom-up and hybrid algorithms. Top-down algorithms start from the whole page and try to partition it. Bottom up algorithms start from a small scale and try to agglomerate the elements at this scale into bigger elements up to the scale of the whole document.
+
+14. What is the main limitation of such an algorithm and how do we use it to classify the surveyed algorithms?
+Ans: The limitation in layout segmentation can stem from the algorithm's design (group one), such as X-Y cut, which was created to segment a specific type of layout with only horizontal and vertical sections (called Manhattan layout). It could also be a result of the algorithm's parameters (group two), such as Voronoi, which is adaptable but requires different values depending on the text format (font size, noise characteristics, connected component size distribution, etc.). A third set of algorithms tries to circumvent these constraints and may or may not succeed (such as neural networks).
+
+
+15.  What is the algorithm in group one?
+Ans: This group's algorithms were the first to appear. They are typically used to segment a specific, specified type of layout, such as a Manhattan layout. As a result, they can be used without any prior experience. This group is divided into three subcategories: The algorithms that make unambiguous assumptions about the document layout either specify it with a grammar, or assume it's a Manhattan layout and employ projection profiles. The algorithms that make the document regions appear using filtering approaches are as follows: RLSA, mathematical morphology, and other filters are commonly used. The assumptions made on the layout geometry are reflected in the filter characteristics.. The algorithms that try to identify straight lines.
+
+16.  What is the algorithm in group two?
+Ans: They differ from group one algorithms in that they attempt to adapt to local variations in the document in order to segment a wider variety of layouts with the same algorithm. They are bottom-up algorithms that attempt to group components based on geometry, texture, or a broader range of characteristics. The algorithms based on function analysis mostly focus on function optimization, such as bringing a function as close to an objective value as possible. Active contours, energy minimization, and probabilistic layout estimates are just a few examples. They're algorithms that work from the top down. The fact that while most algorithms operate with region areas, those based on function analysis usually work with region boundaries is an interesting fact about these algorithms.
+
+17. What is the algorithm in group three?
+Ans: In symbiosis, the hybrid algorithms integrate various other algorithms: While they have the potential to combine the strengths of multiple other algorithms, some of them are overly complex, with no gain in performance or versatility. The combination algorithm (of which only one has been shown) effectively improves the results of various algorithms by combining them.
+Artificial intelligence is used in the neural network algorithms to automatically learn significant information and accomplish the desired task. They require cautious planning and are prone to overtraining. They also have a reputation for being a "black box" whose operation is difficult to comprehend.
+
+18. What type of data set is used?
+Ans: It uses the MAURDOR data set. Yet it does not contain Asian or Cyrillic scripts. Historical documents are also missing. For these, the St. Gall, Parzival and Washington triptych. Clustering algorithms are evaluated on data sets that are, on average, six times bigger than those used for classification algorithms. This is explained by the fact that classification algorithms 645 require large training data sets in particular because of the curse of dimensionality. Thus for the same total data set size (training + testing) a clustering algorithm will usually be tested on a larger data set. 
+
+19. How many images are collected?
+Ans: A data set below 1000 images are only tested on one language and one document type. The algorithms tested on more than 1000 images are mostly tested on one type of document and two languages. The most extensive testings are the blue bubble on the left (2 document types, 10 languages, dataset between 100 and 1000 images) and the green bubble on the right (6 document types, 3 languages, data set bigger than 1000 images.
+
+20. What type of input is the kind of document that can be processed?
+Ans:  The kind of documents that an algorithm can take as input (layout, multi-layered, color depth, text orientation and alignment) is both a functionality and a requirement. 
+
+21.  What is ICDAR official site lite?
+Ans: ICDAR 2021 | 16th Internal Conference on Document Analysis and Recognition
+
+22. What is used to detect text lines and paragraphs?
+Ans: Bidirectional long-short term memory neural network (BLSTM) is used. Bidirectional recurrent neural networks (RNN) are really just putting two independent RNNs together. This structure allows the networks to have both backward and forward information about the sequence at every time step.
+
+23. What is A2iA?
+Ans: A2iA is a software company that creates specialized and intelligent software to help end users improve their data capture, document processing, and workflow automation capabilities. Handwriting recognition, intelligent word recognition, and optical character recognition are among the state-of-the-art and unique recognition technologies used in A2iA's products.
+
+24. What do they use to extract candidate characters?
+Ans: They use MSER to extract candidate characters. MSER (Maximally Stable Extremal Regions) is a feature detector. It is classified as text or non text with a fast Adaboost classifier.
+
+25. What is MSER?
+Ans: MSER is keeping track of the changes to each of these thresholded images and looks for sections of the thresholded images that keep their shapes throughout a wide range of possible threshold values. MSER (Maximally Stable Extremal Regions) is a feature detector that, like the SIFT detector, extracts a number of co-variant regions called MSERs from an image. An MSER is a connected component of some image I level sets that is stable. By fitting ellipses to the regions, elliptical frames can be affixed to the MSERs.
+
+26.  What is Gray-level algorithm?
+Ans: Gray-level clustering is a common image processing technique for lowering an image's gray level. A good gray-level clustering method is required to fulfill this task of displaying an image with a high gray level on a screen with a lower gray level.
+
+27. What type of machine learning techniques are used?
+Ans: With a support vector machine, enhance the segmentation and categorize the text as handwritten or typewritten using Gradient Shape Features (GSF) (SVM). GSF are calculated using a sliding window scaled to the word blob's size. They are comparable to shape context 485 characteristics applied to an inverted gradient image instead of the original image for a certain window. The words blobs are then geometrically clustered into lines. A final global vote will be held.
+
+28. What is MLP ?
+Ans: A feedforward artificial neural network that creates a set of outputs from a set of inputs is known as a multilayer perceptron (MLP). Several layers of input nodes are connected as a directed graph between the input and output layers of an MLP. If all of the neurons in a multilayer perceptron have a linear activation function, that is, a linear function that maps the weighted inputs to each neuron's output, then linear algebra shows that any number of layers may be reduced to a two-layer input-output model.
+
+29. What is e Run-Length Smoothing Algorithm (RLSA)?
+Ans: The Run Length Smoothing Algorithm (RLSA) is a method for text discrimination and block segmentation. There are two steps to the method created for the Document Analysis System. A segmentation process separates a document's area into regions (blocks), each of which should only include one sort of data (text, graphic, halftone image, etc.). Following that, certain basic characteristics of these blocks are calculated.
+
+30. What the use of the Markov Random Field (MRF) in text processing?
+Ans:  It can be used to model the texture intensity process as well as to describe the texture labelling process. In this framework, segmentation of textured images is posed as an optimization problem. To classify the patches into typewritten, handwritten or overlapped text MRF is used.
+
+31. What are the four types of linguistic typology?
+Ans: Typologies or classifications impose order on a variety of natural stream morphologies by using commonalities in shape and function. Objects with similar relevant qualities are grouped together to satisfy the classifier's aims. "Band," "tribe," "chiefdom," and "state" are the four different sorts. Linguistic typology is the study of linguistic structures and diversity.
+ 
+32. How is segmentation carried out on a gray level image?
+For gray images, the segmentation is carry out on the basis of image gray levels where the brighter part of an image is object and darker is background. The objects and background of gray level images can be easily identified, but the process becomes more complicated for color or textured images.
+ 
+ 
+33. What is color Depth?
+Ans: Color depth or colour depth (see spelling differences), also known as bit depth, is either the number of bits used to indicate the color of a single pixel, in a bitmapped image or video framebuffer, or the number of bits used for each color component of a single pixel. 
+ 
+34. What is  Cyrillic scripts?
+Ans: The Cyrillic script (/srlk/) is a writing system used throughout Eurasia for multiple alphabets (particularity in Eastern Europe, the Caucasus, Central Asia, and North Asia). It is based on the Early Cyrillic script, which was developed at the Preslav Literary School in the First Bulgarian Empire around the 9th century AD.
+ 
+35. Write down the official link of APR?
+Ans: Welcome! - The Apache Portable Runtime Project
+ 
+36.  Write down the official link of (ICPR)?
+Ans: ICPR2012 | 21st International Conference on Pattern Recognition (iapr.org)
+ 
+37. Give the Official link of  IAPR International Workshop on Document Analysis Systems (DAS)
+Ans: DAS 2020 : IAPR International Workshop on Document Analysis Systems | Research.com
+ 
+38. What is Markov Random Field (MRF)?
+Ans: If a random field meets Markov properties, it is called a Markov random field. The representation of relationships in a Markov network or MRF is similar to that of a Bayesian network, with the exception that Bayesian networks are directed and acyclic, whereas Markov networks are undirected and may be cyclic.
+ 39. What is SVM?
+Ans: Support SVM (Supervised Learning Algorithm) is one of the most widely used Supervised Learning algorithms for Classification and Regression issues. However, it is mostly utilized in Machine Learning for Classification difficulties. Text and hypertext classification are two examples of SVM uses. Classification of images. Recognizing characters written in a handwritten  classification is part of the biological sciences.
+ 
+40. What is the use of MLP?
+Ans: MLPs can tackle issues that aren't linearly separable and are designed to approximate any continuous function. Pattern categorization, recognition, prediction, and approximation are some of MLP's most common applications. The MLP neural network's main goal is to develop a model that can handle complicated computational problems using enormous volumes of data and various variables that are beyond human comprehension.
+ 
+41. What are the example of Gray level algorithm?
+Ans: Example of Gray Level Co-occurrence Matrix from publication: Texture Feature based Image Retrieval Algorithms
+ 
+42. How overlapped text is separated?
+Ans: The overlapped text is separated at a pixel level with a third MRF and by using Shape Context Features (SCF). Calculate the distance between each pair of points on the two shapes using the "shape distance" formula. Use the shape context distance, image appearance distance, and bending energy as a weighted sum (a measure of how much transformation is required to bring the two shapes into alignment).
+43. How is the shape context different from the feature context?
+Ans: The shape contexts for two closely related points are fairly similar, however the shape context in (f) is completely different. Certain invariances are required for a feature descriptor to be helpful.
+ 
+44. What is feature?
+Ans: A feature is an individual quantifiable attribute or characteristic of a phenomenon in machine learning and pattern recognition.
+Classification.
+Confusion Matrix.
+Cross-Validation.
+Deep Learning Algorithms.
+Machine Learning Model.
+Machine Learning Model Accuracy.
+These are the features in machine learning.
+ 
+45. What is the difference between K-fold and cross validation?
+Ans: People usually refer to k-fold cross validation when they say cross validation. Instead of one train-test set, k-fold cross validation uses multiple(k) train-test sets. This essentially means that in a k-fold CV, you will be training and testing your model k-times. Cross-validation is a resampling technique for evaluating machine learning models on a small sample of data. The process includes only one parameter, k, which specifies the number of groups into which a given data sample should be divided.
+ 
+ 
+ 
+46. What is Bidirectional LSTM?
+Ans: Bidirectional LSTMs are a type of LSTM that can be used to increase model performance in sequence classification issues. Bidirectional LSTMs train two instead of one LSTM on the input sequence in problems where all timesteps of the input sequence are known. LSTM networks are a sort of recurrent neural network that may learn order dependence in sequence prediction challenges. This is a requirement in a variety of complicated issue domains, including machine translation, speech recognition, and others. Deep learning's LSTMs are a complicated topic.
+ 
+47. What is the difference between LSTM and bidirectional LSTM?
+Ans: Bidirectional LSTM is an expansion of the LSTM model, which is a Gated Recurrent Neural Network. The crucial aspect is that these networks may retain data for future cell processing.
+Using bidirectional will run your inputs in two directions, one from the past to the future and the other from the future to the past. What sets this apart from unidirectional is that in the LSTM that runs backwards, information from the future is preserved, and by combining the two hidden states, you can access any point in time.
+ 
+48. What is e most comprehensive benchmarks?
+Ans: The MAURDOR campaign is clearly the most comprehensive, and it is open to the public. It includes over 8000 color documents, as well as ready-to-use evaluation tools and a complete ground-truth (regions, region type, contained text, text type, text language, and other meta data). It comprises all forms of documents, save comics, and typewritten and handwritten material in French, English, and Arabic.
+ 
+ 
+49. What is clustering? 
+Ans: Clustering is an unsupervised machine learning technique for discovering and grouping related data points in huge datasets without regard for the outcome. Clustering (also known as cluster analysis) is a technique for organizing data into structures that are easier to comprehend and manipulate. Clustering is the process of splitting a population or set of data points into many groups so that data points in the same group are more similar than data points in other groups. To put it another way, the goal is to separate groups with similar characteristics and assign them to clusters.
+ 
+50. What is clustering give example?
+In machine learning too, we often group examples as a first step to understand a subject (data set) in a machine learning system. Grouping unlabeled examples is called clustering. As the examples are unlabeled, clustering relies on unsupervised machine learning.
